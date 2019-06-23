@@ -229,15 +229,17 @@ if (x > 0) {
    ```
    Used when you want the body of the loop to execute at least once regardless of the condition being truthy.
 3. *for (;;)* - when condition is checked before each iteration, additional settings available.
-   ```(javascript)
+
+  ```(javascript)
   for (begin; condition; step) {
   // ... loop body ...
   }
   ```
-   (if condition true → run body and run step);
-  
+(if condition true → run body and run step);
+
  ## Inline variable declaration
- Here, the “counter” variable i is declared right in the loop. This is called an “inline” variable declaration. Such variables are visible only inside the loop.
+ Here, the “counter” variable i is declared right in the loop. This is called an “inline” 
+ variable declaration. Such variables are visible only inside the loop.
  Example:
  ```(javascript)
 for (let i = 0; i < 3; i++) {
